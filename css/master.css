@@ -1,30 +1,38 @@
-*{
-    margin: 0;
+
+
+html{
+    background-color: #1f2937;
 }
+
 .flex-container{
     display: flex;
-    background-color: black;
+    background-color: #1f2937;
     height: 50vh;
     width: 100vw;
     justify-content: center;
     align-items: center;
+    color:white;
 
 }
 .flexitem1, .flexitem2{
-    background:grey;
+    background:#1f2937;
     height:100%;
     width:50%;
     
     border: solid yellow;
+    margin: 0 20px;
 }
 .header {
     display:flex;
     height:40px;
     width: 100%;
+    color:white;
+    margin: 0 20px;
+    
 
 }
 .header div{
-    background:red;
+    background-color: #1f2937 ;
     height: 40px;
     width: 50vw;
     flex: 1,1 ;
@@ -36,7 +44,8 @@
     align-items: center;
 }
 .header1 p{
-    margin-left: 10px;
+    
+    font-size:24px;
 
 }
 .flex-container2{
@@ -69,6 +78,7 @@
     display:flex;
     align-items: center;
     justify-content: center;
+    font-size: 18px;
     
 }
 
@@ -84,7 +94,19 @@
 }
 .header2 ul li a{
     text-decoration: none;
+    color:white;
 }
 .flexitem1 div{
     border:solid pink;
 }
+
+.Hero{
+    display: flex;
+    font-size:48px;
+    align-items: end;
+}
+.heroSecondary{
+    font-size:18px;
+}
+.flexitem1{
+    }
